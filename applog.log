@@ -1,0 +1,447 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+20-02-20 Thu 20:40:39.115 INFO  StartApplication Starting StartApplication on DESKTOP-0UV86DB with PID 7268 (C:\Users\Rohit\git\SpringBootSeatingArrangement\spring-data-jpa-mysql\target\classes started by Rohit in C:\Users\Rohit\git\SpringBootSeatingArrangement\spring-data-jpa-mysql)
+20-02-20 Thu 20:40:39.121 INFO  StartApplication No active profile set, falling back to default profiles: default
+20-02-20 Thu 20:40:41.166 INFO  RepositoryConfigurationDelegate Bootstrapping Spring Data repositories in DEFAULT mode.
+20-02-20 Thu 20:40:41.521 INFO  RepositoryConfigurationDelegate Finished Spring Data repository scanning in 335ms. Found 4 repository interfaces.
+20-02-20 Thu 20:40:42.944 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a59e0480] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20-02-20 Thu 20:40:44.643 INFO  TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+20-02-20 Thu 20:40:44.747 INFO  StandardService Starting service [Tomcat]
+20-02-20 Thu 20:40:44.749 INFO  StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.14]
+20-02-20 Thu 20:40:44.774 INFO  AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_241/jre/bin/server;C:/Program Files/Java/jdk1.8.0_241/jre/bin;C:/Program Files/Java/jdk1.8.0_241/jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Rohit\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rohit\VS Code\bin;C:\Users\Rohit\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+20-02-20 Thu 20:40:45.199 INFO  [/] Initializing Spring embedded WebApplicationContext
+20-02-20 Thu 20:40:45.200 INFO  ContextLoader Root WebApplicationContext: initialization completed in 5940 ms
+20-02-20 Thu 20:40:46.459 INFO  HikariDataSource HikariPool-1 - Starting...
+20-02-20 Thu 20:40:47.289 INFO  HikariDataSource HikariPool-1 - Start completed.
+20-02-20 Thu 20:40:47.508 INFO  LogHelper HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20-02-20 Thu 20:40:47.925 INFO  Version HHH000412: Hibernate Core {5.3.7.Final}
+20-02-20 Thu 20:40:47.929 INFO  Environment HHH000206: hibernate.properties not found
+20-02-20 Thu 20:40:48.807 INFO  Version HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+20-02-20 Thu 20:40:48.975 DEBUG BasicTypeRegistry Adding type registration boolean -> org.hibernate.type.BooleanType@73c9e8e8
+20-02-20 Thu 20:40:48.975 DEBUG BasicTypeRegistry Adding type registration boolean -> org.hibernate.type.BooleanType@73c9e8e8
+20-02-20 Thu 20:40:48.975 DEBUG BasicTypeRegistry Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@73c9e8e8
+20-02-20 Thu 20:40:48.977 DEBUG BasicTypeRegistry Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@582a764a
+20-02-20 Thu 20:40:48.979 DEBUG BasicTypeRegistry Adding type registration true_false -> org.hibernate.type.TrueFalseType@53ec2968
+20-02-20 Thu 20:40:48.980 DEBUG BasicTypeRegistry Adding type registration yes_no -> org.hibernate.type.YesNoType@5d5c04f9
+20-02-20 Thu 20:40:48.994 DEBUG BasicTypeRegistry Adding type registration byte -> org.hibernate.type.ByteType@62db3891
+20-02-20 Thu 20:40:48.995 DEBUG BasicTypeRegistry Adding type registration byte -> org.hibernate.type.ByteType@62db3891
+20-02-20 Thu 20:40:48.996 DEBUG BasicTypeRegistry Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@62db3891
+20-02-20 Thu 20:40:49.000 DEBUG BasicTypeRegistry Adding type registration character -> org.hibernate.type.CharacterType@5bc7e78e
+20-02-20 Thu 20:40:49.000 DEBUG BasicTypeRegistry Adding type registration char -> org.hibernate.type.CharacterType@5bc7e78e
+20-02-20 Thu 20:40:49.001 DEBUG BasicTypeRegistry Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@5bc7e78e
+20-02-20 Thu 20:40:49.004 DEBUG BasicTypeRegistry Adding type registration short -> org.hibernate.type.ShortType@1292071f
+20-02-20 Thu 20:40:49.004 DEBUG BasicTypeRegistry Adding type registration short -> org.hibernate.type.ShortType@1292071f
+20-02-20 Thu 20:40:49.004 DEBUG BasicTypeRegistry Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1292071f
+20-02-20 Thu 20:40:49.009 DEBUG BasicTypeRegistry Adding type registration integer -> org.hibernate.type.IntegerType@30364216
+20-02-20 Thu 20:40:49.009 DEBUG BasicTypeRegistry Adding type registration int -> org.hibernate.type.IntegerType@30364216
+20-02-20 Thu 20:40:49.009 DEBUG BasicTypeRegistry Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@30364216
+20-02-20 Thu 20:40:49.012 DEBUG BasicTypeRegistry Adding type registration long -> org.hibernate.type.LongType@1e469dfd
+20-02-20 Thu 20:40:49.012 DEBUG BasicTypeRegistry Adding type registration long -> org.hibernate.type.LongType@1e469dfd
+20-02-20 Thu 20:40:49.012 DEBUG BasicTypeRegistry Adding type registration java.lang.Long -> org.hibernate.type.LongType@1e469dfd
+20-02-20 Thu 20:40:49.015 DEBUG BasicTypeRegistry Adding type registration float -> org.hibernate.type.FloatType@761e788f
+20-02-20 Thu 20:40:49.015 DEBUG BasicTypeRegistry Adding type registration float -> org.hibernate.type.FloatType@761e788f
+20-02-20 Thu 20:40:49.015 DEBUG BasicTypeRegistry Adding type registration java.lang.Float -> org.hibernate.type.FloatType@761e788f
+20-02-20 Thu 20:40:49.018 DEBUG BasicTypeRegistry Adding type registration double -> org.hibernate.type.DoubleType@8851ce1
+20-02-20 Thu 20:40:49.018 DEBUG BasicTypeRegistry Adding type registration double -> org.hibernate.type.DoubleType@8851ce1
+20-02-20 Thu 20:40:49.018 DEBUG BasicTypeRegistry Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@8851ce1
+20-02-20 Thu 20:40:49.020 DEBUG BasicTypeRegistry Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@34d52ecd
+20-02-20 Thu 20:40:49.022 DEBUG BasicTypeRegistry Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@34d52ecd
+20-02-20 Thu 20:40:49.025 DEBUG BasicTypeRegistry Adding type registration big_integer -> org.hibernate.type.BigIntegerType@277bf091
+20-02-20 Thu 20:40:49.026 DEBUG BasicTypeRegistry Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@277bf091
+20-02-20 Thu 20:40:49.028 DEBUG BasicTypeRegistry Adding type registration string -> org.hibernate.type.StringType@4beaf6bd
+20-02-20 Thu 20:40:49.029 DEBUG BasicTypeRegistry Adding type registration java.lang.String -> org.hibernate.type.StringType@4beaf6bd
+20-02-20 Thu 20:40:49.031 DEBUG BasicTypeRegistry Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2f37f1f9
+20-02-20 Thu 20:40:49.032 DEBUG BasicTypeRegistry Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@587a1cfb
+20-02-20 Thu 20:40:49.057 DEBUG BasicTypeRegistry Adding type registration url -> org.hibernate.type.UrlType@146dcfe6
+20-02-20 Thu 20:40:49.057 DEBUG BasicTypeRegistry Adding type registration java.net.URL -> org.hibernate.type.UrlType@146dcfe6
+20-02-20 Thu 20:40:49.060 DEBUG BasicTypeRegistry Adding type registration Duration -> org.hibernate.type.DurationType@1b1f5012
+20-02-20 Thu 20:40:49.060 DEBUG BasicTypeRegistry Adding type registration java.time.Duration -> org.hibernate.type.DurationType@1b1f5012
+20-02-20 Thu 20:40:49.062 DEBUG BasicTypeRegistry Adding type registration Instant -> org.hibernate.type.InstantType@35c12c7a
+20-02-20 Thu 20:40:49.063 DEBUG BasicTypeRegistry Adding type registration java.time.Instant -> org.hibernate.type.InstantType@35c12c7a
+20-02-20 Thu 20:40:49.066 DEBUG BasicTypeRegistry Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@3d904e9c
+20-02-20 Thu 20:40:49.066 DEBUG BasicTypeRegistry Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@3d904e9c
+20-02-20 Thu 20:40:49.069 DEBUG BasicTypeRegistry Adding type registration LocalDate -> org.hibernate.type.LocalDateType@22a736d7
+20-02-20 Thu 20:40:49.069 DEBUG BasicTypeRegistry Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@22a736d7
+20-02-20 Thu 20:40:49.072 DEBUG BasicTypeRegistry Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@38d17d80
+20-02-20 Thu 20:40:49.072 DEBUG BasicTypeRegistry Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@38d17d80
+20-02-20 Thu 20:40:49.075 DEBUG BasicTypeRegistry Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@e5cbff2
+20-02-20 Thu 20:40:49.075 DEBUG BasicTypeRegistry Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@e5cbff2
+20-02-20 Thu 20:40:49.078 DEBUG BasicTypeRegistry Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@60f70249
+20-02-20 Thu 20:40:49.079 DEBUG BasicTypeRegistry Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@60f70249
+20-02-20 Thu 20:40:49.084 DEBUG BasicTypeRegistry Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2643d762
+20-02-20 Thu 20:40:49.084 DEBUG BasicTypeRegistry Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2643d762
+20-02-20 Thu 20:40:49.088 DEBUG BasicTypeRegistry Adding type registration date -> org.hibernate.type.DateType@26f46fa6
+20-02-20 Thu 20:40:49.088 DEBUG BasicTypeRegistry Adding type registration java.sql.Date -> org.hibernate.type.DateType@26f46fa6
+20-02-20 Thu 20:40:49.099 DEBUG BasicTypeRegistry Adding type registration time -> org.hibernate.type.TimeType@63c12e52
+20-02-20 Thu 20:40:49.099 DEBUG BasicTypeRegistry Adding type registration java.sql.Time -> org.hibernate.type.TimeType@63c12e52
+20-02-20 Thu 20:40:49.103 DEBUG BasicTypeRegistry Adding type registration timestamp -> org.hibernate.type.TimestampType@60bbacfc
+20-02-20 Thu 20:40:49.104 DEBUG BasicTypeRegistry Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@60bbacfc
+20-02-20 Thu 20:40:49.104 DEBUG BasicTypeRegistry Adding type registration java.util.Date -> org.hibernate.type.TimestampType@60bbacfc
+20-02-20 Thu 20:40:49.109 DEBUG BasicTypeRegistry Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@476fe690
+20-02-20 Thu 20:40:49.111 DEBUG BasicTypeRegistry Adding type registration calendar -> org.hibernate.type.CalendarType@352c44a8
+20-02-20 Thu 20:40:49.112 DEBUG BasicTypeRegistry Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@352c44a8
+20-02-20 Thu 20:40:49.113 DEBUG BasicTypeRegistry Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@352c44a8
+20-02-20 Thu 20:40:49.115 DEBUG BasicTypeRegistry Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5b852b49
+20-02-20 Thu 20:40:49.118 DEBUG BasicTypeRegistry Adding type registration locale -> org.hibernate.type.LocaleType@895416d
+20-02-20 Thu 20:40:49.118 DEBUG BasicTypeRegistry Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@895416d
+20-02-20 Thu 20:40:49.120 DEBUG BasicTypeRegistry Adding type registration currency -> org.hibernate.type.CurrencyType@3e33d73e
+20-02-20 Thu 20:40:49.120 DEBUG BasicTypeRegistry Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3e33d73e
+20-02-20 Thu 20:40:49.123 DEBUG BasicTypeRegistry Adding type registration timezone -> org.hibernate.type.TimeZoneType@68a4dcc6
+20-02-20 Thu 20:40:49.124 DEBUG BasicTypeRegistry Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@68a4dcc6
+20-02-20 Thu 20:40:49.127 DEBUG BasicTypeRegistry Adding type registration class -> org.hibernate.type.ClassType@5bc28f40
+20-02-20 Thu 20:40:49.127 DEBUG BasicTypeRegistry Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5bc28f40
+20-02-20 Thu 20:40:49.130 DEBUG BasicTypeRegistry Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@55e42449
+20-02-20 Thu 20:40:49.130 DEBUG BasicTypeRegistry Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@55e42449
+20-02-20 Thu 20:40:49.131 DEBUG BasicTypeRegistry Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@78054f54
+20-02-20 Thu 20:40:49.134 DEBUG BasicTypeRegistry Adding type registration binary -> org.hibernate.type.BinaryType@654c7d2d
+20-02-20 Thu 20:40:49.134 DEBUG BasicTypeRegistry Adding type registration byte[] -> org.hibernate.type.BinaryType@654c7d2d
+20-02-20 Thu 20:40:49.134 DEBUG BasicTypeRegistry Adding type registration [B -> org.hibernate.type.BinaryType@654c7d2d
+20-02-20 Thu 20:40:49.151 DEBUG BasicTypeRegistry Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@625d9132
+20-02-20 Thu 20:40:49.152 DEBUG BasicTypeRegistry Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@625d9132
+20-02-20 Thu 20:40:49.154 DEBUG BasicTypeRegistry Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@625d9132
+20-02-20 Thu 20:40:49.158 DEBUG BasicTypeRegistry Adding type registration row_version -> org.hibernate.type.RowVersionType@2f1d0bbc
+20-02-20 Thu 20:40:49.160 DEBUG BasicTypeRegistry Adding type registration image -> org.hibernate.type.ImageType@c27a3a2
+20-02-20 Thu 20:40:49.165 DEBUG BasicTypeRegistry Adding type registration characters -> org.hibernate.type.CharArrayType@12fcc71f
+20-02-20 Thu 20:40:49.165 DEBUG BasicTypeRegistry Adding type registration char[] -> org.hibernate.type.CharArrayType@12fcc71f
+20-02-20 Thu 20:40:49.166 DEBUG BasicTypeRegistry Adding type registration [C -> org.hibernate.type.CharArrayType@12fcc71f
+20-02-20 Thu 20:40:49.169 DEBUG BasicTypeRegistry Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@56a4f272
+20-02-20 Thu 20:40:49.169 DEBUG BasicTypeRegistry Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@56a4f272
+20-02-20 Thu 20:40:49.169 DEBUG BasicTypeRegistry Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@56a4f272
+20-02-20 Thu 20:40:49.170 DEBUG BasicTypeRegistry Adding type registration text -> org.hibernate.type.TextType@4d41ba0f
+20-02-20 Thu 20:40:49.172 DEBUG BasicTypeRegistry Adding type registration ntext -> org.hibernate.type.NTextType@3c3a0032
+20-02-20 Thu 20:40:49.176 DEBUG BasicTypeRegistry Adding type registration blob -> org.hibernate.type.BlobType@a451491
+20-02-20 Thu 20:40:49.176 DEBUG BasicTypeRegistry Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@a451491
+20-02-20 Thu 20:40:49.178 DEBUG BasicTypeRegistry Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7bc44ce8
+20-02-20 Thu 20:40:49.182 DEBUG BasicTypeRegistry Adding type registration clob -> org.hibernate.type.ClobType@4da6d664
+20-02-20 Thu 20:40:49.183 DEBUG BasicTypeRegistry Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4da6d664
+20-02-20 Thu 20:40:49.186 DEBUG BasicTypeRegistry Adding type registration nclob -> org.hibernate.type.NClobType@6cff61fc
+20-02-20 Thu 20:40:49.186 DEBUG BasicTypeRegistry Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6cff61fc
+20-02-20 Thu 20:40:49.187 DEBUG BasicTypeRegistry Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7baf1f5a
+20-02-20 Thu 20:40:49.188 DEBUG BasicTypeRegistry Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7cbeac65
+20-02-20 Thu 20:40:49.192 DEBUG BasicTypeRegistry Adding type registration serializable -> org.hibernate.type.SerializableType@5f0f9947
+20-02-20 Thu 20:40:49.203 DEBUG BasicTypeRegistry Adding type registration object -> org.hibernate.type.ObjectType@4d21c56e
+20-02-20 Thu 20:40:49.203 DEBUG BasicTypeRegistry Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4d21c56e
+20-02-20 Thu 20:40:49.204 DEBUG BasicTypeRegistry Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@712cfb63
+20-02-20 Thu 20:40:49.204 DEBUG BasicTypeRegistry Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@32e54a9d
+20-02-20 Thu 20:40:49.205 DEBUG BasicTypeRegistry Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@15639440
+20-02-20 Thu 20:40:49.205 DEBUG BasicTypeRegistry Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@121bb45b
+20-02-20 Thu 20:40:49.205 DEBUG BasicTypeRegistry Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4faa298
+20-02-20 Thu 20:40:49.205 DEBUG BasicTypeRegistry Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1cd3b138
+20-02-20 Thu 20:40:49.205 DEBUG BasicTypeRegistry Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@151bf776
+20-02-20 Thu 20:40:49.205 DEBUG BasicTypeRegistry Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@5a6d30e2
+20-02-20 Thu 20:40:49.626 INFO  Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+20-02-20 Thu 20:40:49.970 DEBUG TypeConfiguration$Scope Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@106d77da] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@6f9c5048]
+20-02-20 Thu 20:40:50.941 DEBUG TypeConfiguration$Scope Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@106d77da] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@583fb274]
+20-02-20 Thu 20:40:51.772 TRACE TypeConfiguration$Scope Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@583fb274] for TypeConfiguration
+20-02-20 Thu 20:40:51.775 INFO  LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+20-02-20 Thu 20:40:53.071 WARN  JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20-02-20 Thu 20:40:54.028 INFO  TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+20-02-20 Thu 20:40:54.361 INFO  StartApplication Started StartApplication in 16.166 seconds (JVM running for 17.388)
+20-02-20 Thu 20:40:54.364 INFO  StartApplication StartApplication...
+20-02-20 Thu 20:41:10.653 INFO  [/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+20-02-20 Thu 20:41:10.654 INFO  DispatcherServlet Initializing Servlet 'dispatcherServlet'
+20-02-20 Thu 20:41:10.691 INFO  DispatcherServlet Completed initialization in 37 ms
+20-02-20 Thu 20:41:11.183 INFO  QueryTranslatorFactoryInitiator HHH000397: Using ASTQueryTranslatorFactory
+20-02-20 Thu 20:41:13.026 DEBUG SQL select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+Hibernate: select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+20-02-20 Thu 20:41:13.115 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [2]
+20-02-20 Thu 20:41:13.133 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [9]
+20-02-20 Thu 20:41:13.133 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 20:41:13.133 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [R123]
+20-02-20 Thu 20:41:13.133 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raj]
+20-02-20 Thu 20:41:13.134 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberoi]
+20-02-20 Thu 20:41:13.134 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 20:41:13.300 DEBUG SQL select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+Hibernate: select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+20-02-20 Thu 20:41:13.302 TRACE BasicBinder binding parameter [1] as [VARCHAR] - [123]
+20-02-20 Thu 20:41:13.306 TRACE BasicExtractor extracted value ([id1_2_0_] : [INTEGER]) - [1]
+20-02-20 Thu 20:41:13.306 TRACE BasicExtractor extracted value ([seat_no2_2_0_] : [VARCHAR]) - [18]
+20-02-20 Thu 20:41:13.306 TRACE BasicExtractor extracted value ([email3_2_0_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 20:41:13.306 TRACE BasicExtractor extracted value ([first_na4_2_0_] : [VARCHAR]) - [Rohit]
+20-02-20 Thu 20:41:13.307 TRACE BasicExtractor extracted value ([last_nam5_2_0_] : [VARCHAR]) - [Chopra]
+20-02-20 Thu 20:41:13.307 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 20:41:13.307 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 20:41:13.333 TRACE CollectionType Created collection wrapper: [com.seating.dtos.Manager.employeeUsers#1]
+20-02-20 Thu 20:53:55.877 DEBUG SQL select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+Hibernate: select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+20-02-20 Thu 20:53:55.881 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [2]
+20-02-20 Thu 20:53:55.882 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [9]
+20-02-20 Thu 20:53:55.882 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 20:53:55.882 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [R123]
+20-02-20 Thu 20:53:55.883 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raj]
+20-02-20 Thu 20:53:55.883 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberoi]
+20-02-20 Thu 20:53:55.883 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 20:53:55.883 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [9]
+20-02-20 Thu 20:53:55.883 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [13]
+20-02-20 Thu 20:53:55.884 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [khanoberoi@gmail.com]
+20-02-20 Thu 20:53:55.884 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [K1235]
+20-02-20 Thu 20:53:55.884 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Khan]
+20-02-20 Thu 20:53:55.885 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberp]
+20-02-20 Thu 20:53:55.885 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 20:53:55.885 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [10]
+20-02-20 Thu 20:53:55.885 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [12]
+20-02-20 Thu 20:53:55.886 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rajuiberoi424@gmail.com]
+20-02-20 Thu 20:53:55.886 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [RA1234]
+20-02-20 Thu 20:53:55.886 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raju]
+20-02-20 Thu 20:53:55.887 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Ober]
+20-02-20 Thu 20:53:55.887 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 20:53:55.889 DEBUG SQL select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+Hibernate: select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+20-02-20 Thu 20:53:55.889 TRACE BasicBinder binding parameter [1] as [VARCHAR] - [123]
+20-02-20 Thu 20:53:55.894 TRACE BasicExtractor extracted value ([id1_2_0_] : [INTEGER]) - [1]
+20-02-20 Thu 20:53:55.894 TRACE BasicExtractor extracted value ([seat_no2_2_0_] : [VARCHAR]) - [18]
+20-02-20 Thu 20:53:55.894 TRACE BasicExtractor extracted value ([email3_2_0_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 20:53:55.895 TRACE BasicExtractor extracted value ([first_na4_2_0_] : [VARCHAR]) - [Rohit]
+20-02-20 Thu 20:53:55.895 TRACE BasicExtractor extracted value ([last_nam5_2_0_] : [VARCHAR]) - [Chopra]
+20-02-20 Thu 20:53:55.895 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 20:53:55.896 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 20:53:55.896 TRACE CollectionType Created collection wrapper: [com.seating.dtos.Manager.employeeUsers#1]
+20-02-20 Thu 21:01:42.271 DEBUG SQL select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+Hibernate: select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+20-02-20 Thu 21:01:42.304 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [2]
+20-02-20 Thu 21:01:42.312 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [9]
+20-02-20 Thu 21:01:42.313 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 21:01:42.314 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [R123]
+20-02-20 Thu 21:01:42.314 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raj]
+20-02-20 Thu 21:01:42.315 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberoi]
+20-02-20 Thu 21:01:42.320 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:01:42.323 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [9]
+20-02-20 Thu 21:01:42.324 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [13]
+20-02-20 Thu 21:01:42.325 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [khanoberoi@gmail.com]
+20-02-20 Thu 21:01:42.325 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [K1235]
+20-02-20 Thu 21:01:42.325 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Khan]
+20-02-20 Thu 21:01:42.326 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberp]
+20-02-20 Thu 21:01:42.326 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:01:42.326 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [10]
+20-02-20 Thu 21:01:42.326 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [12]
+20-02-20 Thu 21:01:42.327 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rajuiberoi424@gmail.com]
+20-02-20 Thu 21:01:42.327 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [RA1234]
+20-02-20 Thu 21:01:42.327 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raju]
+20-02-20 Thu 21:01:42.327 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Ober]
+20-02-20 Thu 21:01:42.327 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:01:42.327 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [11]
+20-02-20 Thu 21:01:42.328 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [14]
+20-02-20 Thu 21:01:42.329 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [makhanSingh@gmail.com]
+20-02-20 Thu 21:01:42.329 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [M1235]
+20-02-20 Thu 21:01:42.330 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Makhan]
+20-02-20 Thu 21:01:42.330 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Singh]
+20-02-20 Thu 21:01:42.346 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:01:42.346 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [12]
+20-02-20 Thu 21:01:42.346 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [15]
+20-02-20 Thu 21:01:42.346 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [Rakesh@gmail.com]
+20-02-20 Thu 21:01:42.346 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [Rak1235]
+20-02-20 Thu 21:01:42.347 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Rakesh]
+20-02-20 Thu 21:01:42.347 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Kumar]
+20-02-20 Thu 21:01:42.347 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:01:42.354 DEBUG SQL select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+Hibernate: select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+20-02-20 Thu 21:01:42.358 TRACE BasicBinder binding parameter [1] as [VARCHAR] - [123]
+20-02-20 Thu 21:01:42.363 TRACE BasicExtractor extracted value ([id1_2_0_] : [INTEGER]) - [1]
+20-02-20 Thu 21:01:42.364 TRACE BasicExtractor extracted value ([seat_no2_2_0_] : [VARCHAR]) - [18]
+20-02-20 Thu 21:01:42.364 TRACE BasicExtractor extracted value ([email3_2_0_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 21:01:42.365 TRACE BasicExtractor extracted value ([first_na4_2_0_] : [VARCHAR]) - [Rohit]
+20-02-20 Thu 21:01:42.365 TRACE BasicExtractor extracted value ([last_nam5_2_0_] : [VARCHAR]) - [Chopra]
+20-02-20 Thu 21:01:42.365 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:01:42.365 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:01:42.371 TRACE CollectionType Created collection wrapper: [com.seating.dtos.Manager.employeeUsers#1]
+20-02-20 Thu 21:04:45.716 DEBUG SQL select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+Hibernate: select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+20-02-20 Thu 21:04:45.719 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [2]
+20-02-20 Thu 21:04:45.719 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [9]
+20-02-20 Thu 21:04:45.719 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 21:04:45.720 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [R123]
+20-02-20 Thu 21:04:45.720 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raj]
+20-02-20 Thu 21:04:45.720 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberoi]
+20-02-20 Thu 21:04:45.720 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:04:45.720 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [9]
+20-02-20 Thu 21:04:45.720 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [13]
+20-02-20 Thu 21:04:45.720 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [khanoberoi@gmail.com]
+20-02-20 Thu 21:04:45.720 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [K1235]
+20-02-20 Thu 21:04:45.720 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Khan]
+20-02-20 Thu 21:04:45.721 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberp]
+20-02-20 Thu 21:04:45.721 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:04:45.721 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [10]
+20-02-20 Thu 21:04:45.721 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [12]
+20-02-20 Thu 21:04:45.722 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rajuiberoi424@gmail.com]
+20-02-20 Thu 21:04:45.722 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [RA1234]
+20-02-20 Thu 21:04:45.722 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raju]
+20-02-20 Thu 21:04:45.725 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Ober]
+20-02-20 Thu 21:04:45.725 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:04:45.826 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [11]
+20-02-20 Thu 21:04:45.827 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [14]
+20-02-20 Thu 21:04:45.827 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [makhanSingh@gmail.com]
+20-02-20 Thu 21:04:45.827 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [M1235]
+20-02-20 Thu 21:04:45.827 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Makhan]
+20-02-20 Thu 21:04:45.827 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Singh]
+20-02-20 Thu 21:04:45.827 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:04:45.828 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [12]
+20-02-20 Thu 21:04:45.828 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [15]
+20-02-20 Thu 21:04:45.828 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [Rakesh@gmail.com]
+20-02-20 Thu 21:04:45.829 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [Rak1235]
+20-02-20 Thu 21:04:45.830 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Rakesh]
+20-02-20 Thu 21:04:45.830 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Kumar]
+20-02-20 Thu 21:04:45.830 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:04:45.831 DEBUG SQL select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+Hibernate: select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+20-02-20 Thu 21:04:45.831 TRACE BasicBinder binding parameter [1] as [VARCHAR] - [123]
+20-02-20 Thu 21:04:45.834 TRACE BasicExtractor extracted value ([id1_2_0_] : [INTEGER]) - [1]
+20-02-20 Thu 21:04:45.835 TRACE BasicExtractor extracted value ([seat_no2_2_0_] : [VARCHAR]) - [18]
+20-02-20 Thu 21:04:45.835 TRACE BasicExtractor extracted value ([email3_2_0_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 21:04:45.836 TRACE BasicExtractor extracted value ([first_na4_2_0_] : [VARCHAR]) - [Rohit]
+20-02-20 Thu 21:04:45.837 TRACE BasicExtractor extracted value ([last_nam5_2_0_] : [VARCHAR]) - [Chopra]
+20-02-20 Thu 21:04:45.837 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:04:45.837 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:04:45.838 TRACE CollectionType Created collection wrapper: [com.seating.dtos.Manager.employeeUsers#1]
+20-02-20 Thu 21:06:12.056 DEBUG SQL select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+Hibernate: select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+20-02-20 Thu 21:06:12.058 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [2]
+20-02-20 Thu 21:06:12.063 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [9]
+20-02-20 Thu 21:06:12.063 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 21:06:12.063 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [R123]
+20-02-20 Thu 21:06:12.064 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raj]
+20-02-20 Thu 21:06:12.064 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberoi]
+20-02-20 Thu 21:06:12.064 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:06:12.064 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [9]
+20-02-20 Thu 21:06:12.065 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [13]
+20-02-20 Thu 21:06:12.065 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [khanoberoi@gmail.com]
+20-02-20 Thu 21:06:12.066 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [K1235]
+20-02-20 Thu 21:06:12.066 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Khan]
+20-02-20 Thu 21:06:12.066 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberp]
+20-02-20 Thu 21:06:12.066 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:06:12.067 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [10]
+20-02-20 Thu 21:06:12.067 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [12]
+20-02-20 Thu 21:06:12.067 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rajuiberoi424@gmail.com]
+20-02-20 Thu 21:06:12.067 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [RA1234]
+20-02-20 Thu 21:06:12.067 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raju]
+20-02-20 Thu 21:06:12.067 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Ober]
+20-02-20 Thu 21:06:12.067 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:06:12.068 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [11]
+20-02-20 Thu 21:06:12.068 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [14]
+20-02-20 Thu 21:06:12.068 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [makhanSingh@gmail.com]
+20-02-20 Thu 21:06:12.069 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [M1235]
+20-02-20 Thu 21:06:12.069 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Makhan]
+20-02-20 Thu 21:06:12.069 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Singh]
+20-02-20 Thu 21:06:12.069 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:06:12.069 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [12]
+20-02-20 Thu 21:06:12.069 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [15]
+20-02-20 Thu 21:06:12.069 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [Rakesh@gmail.com]
+20-02-20 Thu 21:06:12.070 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [Rak1235]
+20-02-20 Thu 21:06:12.070 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Rakesh]
+20-02-20 Thu 21:06:12.070 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Kumar]
+20-02-20 Thu 21:06:12.070 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:06:12.071 DEBUG SQL select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+Hibernate: select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+20-02-20 Thu 21:06:12.071 TRACE BasicBinder binding parameter [1] as [VARCHAR] - [123]
+20-02-20 Thu 21:06:12.073 TRACE BasicExtractor extracted value ([id1_2_0_] : [INTEGER]) - [1]
+20-02-20 Thu 21:06:12.074 TRACE BasicExtractor extracted value ([seat_no2_2_0_] : [VARCHAR]) - [18]
+20-02-20 Thu 21:06:12.074 TRACE BasicExtractor extracted value ([email3_2_0_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 21:06:12.074 TRACE BasicExtractor extracted value ([first_na4_2_0_] : [VARCHAR]) - [Rohit]
+20-02-20 Thu 21:06:12.075 TRACE BasicExtractor extracted value ([last_nam5_2_0_] : [VARCHAR]) - [Chopra]
+20-02-20 Thu 21:06:12.075 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:06:12.075 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:06:12.077 TRACE CollectionType Created collection wrapper: [com.seating.dtos.Manager.employeeUsers#1]
+20-02-20 Thu 21:07:02.051 DEBUG SQL select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+Hibernate: select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+20-02-20 Thu 21:07:02.053 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [2]
+20-02-20 Thu 21:07:02.054 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [9]
+20-02-20 Thu 21:07:02.054 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 21:07:02.054 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [R123]
+20-02-20 Thu 21:07:02.054 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raj]
+20-02-20 Thu 21:07:02.054 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberoi]
+20-02-20 Thu 21:07:02.055 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:02.055 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [9]
+20-02-20 Thu 21:07:02.055 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [13]
+20-02-20 Thu 21:07:02.055 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [khanoberoi@gmail.com]
+20-02-20 Thu 21:07:02.055 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [K1235]
+20-02-20 Thu 21:07:02.055 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Khan]
+20-02-20 Thu 21:07:02.055 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberp]
+20-02-20 Thu 21:07:02.055 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:02.055 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [10]
+20-02-20 Thu 21:07:02.056 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [12]
+20-02-20 Thu 21:07:02.056 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rajuiberoi424@gmail.com]
+20-02-20 Thu 21:07:02.056 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [RA1234]
+20-02-20 Thu 21:07:02.057 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raju]
+20-02-20 Thu 21:07:02.057 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Ober]
+20-02-20 Thu 21:07:02.057 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:02.058 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [11]
+20-02-20 Thu 21:07:02.060 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [14]
+20-02-20 Thu 21:07:02.060 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [makhanSingh@gmail.com]
+20-02-20 Thu 21:07:02.060 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [M1235]
+20-02-20 Thu 21:07:02.060 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Makhan]
+20-02-20 Thu 21:07:02.060 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Singh]
+20-02-20 Thu 21:07:02.061 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:02.061 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [12]
+20-02-20 Thu 21:07:02.061 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [15]
+20-02-20 Thu 21:07:02.062 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [Rakesh@gmail.com]
+20-02-20 Thu 21:07:02.062 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [Rak1235]
+20-02-20 Thu 21:07:02.062 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Rakesh]
+20-02-20 Thu 21:07:02.062 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Kumar]
+20-02-20 Thu 21:07:02.062 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:02.063 DEBUG SQL select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+Hibernate: select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+20-02-20 Thu 21:07:02.065 TRACE BasicBinder binding parameter [1] as [VARCHAR] - [123]
+20-02-20 Thu 21:07:02.068 TRACE BasicExtractor extracted value ([id1_2_0_] : [INTEGER]) - [1]
+20-02-20 Thu 21:07:02.068 TRACE BasicExtractor extracted value ([seat_no2_2_0_] : [VARCHAR]) - [18]
+20-02-20 Thu 21:07:02.069 TRACE BasicExtractor extracted value ([email3_2_0_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 21:07:02.069 TRACE BasicExtractor extracted value ([first_na4_2_0_] : [VARCHAR]) - [Rohit]
+20-02-20 Thu 21:07:02.069 TRACE BasicExtractor extracted value ([last_nam5_2_0_] : [VARCHAR]) - [Chopra]
+20-02-20 Thu 21:07:02.069 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:02.069 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:02.069 TRACE CollectionType Created collection wrapper: [com.seating.dtos.Manager.employeeUsers#1]
+20-02-20 Thu 21:07:44.195 DEBUG SQL select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+Hibernate: select employeeus0_.id as id1_1_, employeeus0_.seat_no as seat_no2_1_, employeeus0_.email as email3_1_, employeeus0_.employee_id as employee4_1_, employeeus0_.first_name as first_na5_1_, employeeus0_.last_name as last_nam6_1_, employeeus0_.manager_id as manager_7_1_ from employee employeeus0_
+20-02-20 Thu 21:07:44.197 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [2]
+20-02-20 Thu 21:07:44.198 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [9]
+20-02-20 Thu 21:07:44.198 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 21:07:44.198 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [R123]
+20-02-20 Thu 21:07:44.198 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raj]
+20-02-20 Thu 21:07:44.199 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberoi]
+20-02-20 Thu 21:07:44.199 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:44.199 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [9]
+20-02-20 Thu 21:07:44.199 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [13]
+20-02-20 Thu 21:07:44.200 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [khanoberoi@gmail.com]
+20-02-20 Thu 21:07:44.200 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [K1235]
+20-02-20 Thu 21:07:44.200 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Khan]
+20-02-20 Thu 21:07:44.201 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Oberp]
+20-02-20 Thu 21:07:44.201 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:44.202 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [10]
+20-02-20 Thu 21:07:44.202 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [12]
+20-02-20 Thu 21:07:44.202 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [rajuiberoi424@gmail.com]
+20-02-20 Thu 21:07:44.202 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [RA1234]
+20-02-20 Thu 21:07:44.202 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Raju]
+20-02-20 Thu 21:07:44.202 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Ober]
+20-02-20 Thu 21:07:44.202 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:44.203 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [11]
+20-02-20 Thu 21:07:44.204 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [14]
+20-02-20 Thu 21:07:44.206 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [makhanSingh@gmail.com]
+20-02-20 Thu 21:07:44.206 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [M1235]
+20-02-20 Thu 21:07:44.206 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Makhan]
+20-02-20 Thu 21:07:44.206 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Singh]
+20-02-20 Thu 21:07:44.206 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:44.207 TRACE BasicExtractor extracted value ([id1_1_] : [INTEGER]) - [12]
+20-02-20 Thu 21:07:44.207 TRACE BasicExtractor extracted value ([seat_no2_1_] : [VARCHAR]) - [15]
+20-02-20 Thu 21:07:44.207 TRACE BasicExtractor extracted value ([email3_1_] : [VARCHAR]) - [Rakesh@gmail.com]
+20-02-20 Thu 21:07:44.208 TRACE BasicExtractor extracted value ([employee4_1_] : [VARCHAR]) - [Rak1235]
+20-02-20 Thu 21:07:44.208 TRACE BasicExtractor extracted value ([first_na5_1_] : [VARCHAR]) - [Rakesh]
+20-02-20 Thu 21:07:44.209 TRACE BasicExtractor extracted value ([last_nam6_1_] : [VARCHAR]) - [Kumar]
+20-02-20 Thu 21:07:44.209 TRACE BasicExtractor extracted value ([manager_7_1_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:44.209 DEBUG SQL select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+Hibernate: select manager0_.id as id1_2_0_, manager0_.seat_no as seat_no2_2_0_, manager0_.email as email3_2_0_, manager0_.first_name as first_na4_2_0_, manager0_.last_name as last_nam5_2_0_, manager0_.manager_employee_id as manager_6_2_0_ from manager manager0_ where manager0_.manager_employee_id=?
+20-02-20 Thu 21:07:44.210 TRACE BasicBinder binding parameter [1] as [VARCHAR] - [123]
+20-02-20 Thu 21:07:44.213 TRACE BasicExtractor extracted value ([id1_2_0_] : [INTEGER]) - [1]
+20-02-20 Thu 21:07:44.213 TRACE BasicExtractor extracted value ([seat_no2_2_0_] : [VARCHAR]) - [18]
+20-02-20 Thu 21:07:44.214 TRACE BasicExtractor extracted value ([email3_2_0_] : [VARCHAR]) - [rchopra424@gmail.com]
+20-02-20 Thu 21:07:44.214 TRACE BasicExtractor extracted value ([first_na4_2_0_] : [VARCHAR]) - [Rohit]
+20-02-20 Thu 21:07:44.214 TRACE BasicExtractor extracted value ([last_nam5_2_0_] : [VARCHAR]) - [Chopra]
+20-02-20 Thu 21:07:44.214 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:44.214 TRACE BasicExtractor extracted value ([manager_6_2_0_] : [VARCHAR]) - [123]
+20-02-20 Thu 21:07:44.214 TRACE CollectionType Created collection wrapper: [com.seating.dtos.Manager.employeeUsers#1]
